@@ -2,6 +2,7 @@ from django import forms
 from django.contrib.auth.models import User
 from .models import Post, Comment
 
+
 # Этот класс наследует от ModelForm, что позволяет автоматически создавать форму на основе модели User.
 # Поля формы:
 # password и password_confirm: Эти поля создаются как поля ввода пароля с использованием виджета PasswordInput,
@@ -27,6 +28,7 @@ class UserRegistrationForm(forms.ModelForm):
         if password and password_confirm and password != password_confirm:
             raise forms.ValidationError("Пароли не совпадают.")
 
+
 #  Этот класс также наследует от ModelForm, что позволяет создавать форму на основе модели Post.
 class PostForm(forms.ModelForm):
     # Meta-класс:
@@ -46,4 +48,3 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ['content']
-
