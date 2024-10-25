@@ -1,13 +1,12 @@
 import os
 import time
+import django
+from blog.models import Post
 
 # Настройка Django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
-import django
 
 django.setup()
-
-from blog.models import Post
 
 
 # Функция для создания записей
