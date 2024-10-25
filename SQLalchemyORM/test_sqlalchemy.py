@@ -11,6 +11,7 @@ Base = declarative_base()
 # Создание сессии
 Session = sessionmaker(bind=engine)
 
+
 # Определение модели Post
 class Post(Base):
     __tablename__ = 'posts'
@@ -19,8 +20,10 @@ class Post(Base):
     content = Column(Text, nullable=False)
     published_date = Column(DateTime, default=datetime.now)
 
+
 # Создание таблиц в базе данных
 Base.metadata.create_all(engine)
+
 
 # Добавление новой записи
 def create_posts(num_posts):
@@ -33,6 +36,7 @@ def create_posts(num_posts):
     end_time = time.time()  # Запись времени окончания операции
     print(f'Создание {num_posts} записей заняло {end_time - start_time:.2f} секунд.')  # Вывод времени выполнения
 
+
 # Выборкf всех записей из таблицы
 def fetch_posts():
     session = Session()  # Создание новой сессии
@@ -40,6 +44,7 @@ def fetch_posts():
     posts = session.query(Post).all()  # Выполнение запроса для получения всех записей
     end_time = time.time()  # Запись времени окончания операции
     print(f'Выборка всех записей заняла {end_time - start_time:.2f} секунд.')  # Вывод времени выполнения
+
 
 # Удаление записей
 def delete_posts():
@@ -49,6 +54,7 @@ def delete_posts():
     session.commit()
     end_time = time.time()
     print(f'Удаление всех записей заняло {end_time - start_time:.2f} секунд.')
+
 
 if __name__ == '__main__':
     num_posts = 1000  # Количество создаваемых записей

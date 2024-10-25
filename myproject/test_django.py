@@ -4,9 +4,11 @@ import time
 # Настройка Django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 import django
+
 django.setup()
 
 from blog.models import Post
+
 
 # Функция для создания записей
 def create_posts(num_posts):
@@ -16,12 +18,14 @@ def create_posts(num_posts):
     end_time = time.time()
     print(f'Создание {num_posts} записей заняло {end_time - start_time:.2f} секунд.')
 
+
 # Функция для выборки всех записей
 def fetch_posts():
     start_time = time.time()
     posts = Post.objects.all()
     end_time = time.time()
     print(f'Выборка всех записей заняла {end_time - start_time:.2f} секунд.')
+
 
 # Функция для удаления всех записей
 def delete_posts():
@@ -30,8 +34,9 @@ def delete_posts():
     end_time = time.time()
     print(f'Удаление всех записей заняло {end_time - start_time:.2f} секунд.')
 
+
 if __name__ == '__main__':
-    num_posts = 1000  # Количество создаваемых записей
+    num_posts = 1000
     create_posts(num_posts)
     fetch_posts()
     delete_posts()

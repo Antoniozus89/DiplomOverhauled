@@ -16,7 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from blog.views import post_list, post_detail, post_create, post_edit, register, user_login, home, add_comment
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),  # Этот путь указывает на административный интерфейс Django
+    path('', home, name='home'),  # URL для главной страницы
+    path('post/<int:pk>/', post_detail, name='post_detail'),  # URL, который содержит идентификатор поста
+    path('post/new/', post_create, name='post_create'),  # URL для создания нового поста.
+    path('post/<int:pk>/edit/', post_edit, name='post_edit'),  # URL для редактирования существующего поста
+    path('posts/', post_list, name='post_list'),  # URL для отображения списка всех постов.
+    path('register/', register, name='register'),  # URL для регистрации
+    path('login/', user_login, name='login'),  # URL для входа
+    path('post/<int:pk>/', post_detail, name='post_detail'),  # URL для просмотра поста
+    path('post/<int:post_id>/add_comment/', add_comment, name='add_comment'),  # Пример URL для добавления комментария
 ]

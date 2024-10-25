@@ -4,33 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50dd61ba-bf3d-4251-90cf-891d17c76b6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Diplom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQLalchemy/SQLapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQLalchemy/test_sqlalchemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tortoise ORM/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tortoise ORM/test_tortoise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myproject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myproject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/test_django.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="50dd61ba-bf3d-4251-90cf-891d17c76b6d" name="Changes" comment="A">
+      <change afterPath="$PROJECT_DIR$/myproject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/migrations/0002_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/post_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/post_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/img_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Diplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diplom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLalchemy/SQLapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQLalchemyORM/SQLapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLalchemy/test_sqlalchemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQLalchemyORM/test_sqlalchemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tortoise ORM/test_tortoise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tortoise ORM/test_tortoise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/test_django.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/test_django.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,11 +70,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.manage.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_django (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.test_django.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_sqlalchemy (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.test_sqlalchemy.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_tortoise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -78,29 +90,7 @@
       <recent name="E:\Programs\PytonProjects\Diplom\myproject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_tortoise">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_django (1)">
     <configuration name="test_django (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Diplom" />
       <option name="ENV_FILES" value="" />
@@ -123,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_django" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_sqlalchemy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject/blog" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQLalchemyORM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Programs\PytonProjects\Diplom\myproject\test_django.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQLalchemyORM/test_sqlalchemy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,13 +179,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject/blog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/blog/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_tortoise" />
         <item itemvalue="Python.test_django (1)" />
+        <item itemvalue="Python.test_sqlalchemy (1)" />
+        <item itemvalue="Python.test_tortoise" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.test_sqlalchemy" />
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.test_django" />
       </list>
     </recent_temporary>
   </component>
@@ -215,9 +227,36 @@
       <option name="presentableId" value="Default" />
       <updated>1729583861982</updated>
     </task>
+    <task id="LOCAL-00001" summary="A">
+      <option name="closed" value="true" />
+      <created>1729609465673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729609465673</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="A" />
+    <option name="LAST_COMMIT_MESSAGE" value="A" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myproject/blog/views.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myproject/blog/models.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
